@@ -1,4 +1,2 @@
 # startup
-Repository for C S 260 Startup Application project.
-Some ideas I have for this project are: skiing speed tracker
-I also might just do a voting app, since that is easy. This is the merged result.
+Learning how to us GitHub and VS Code together has been an interesting experience. It has not been as straightforward or intuitive as I would have thought. The fundamentals of pushing and pullings commits between GitHub and my personal computer make sense however, because when coding with multiple people, seeing the version history is very important. I definitely appreciate the GitLens add-on.
