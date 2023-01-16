@@ -1,2 +1,3 @@
 # startup
-Learning how to us GitHub and VS Code together has been an interesting experience. It has not been as straightforward or intuitive as I would have thought. The fundamentals of pushing and pullings commits between GitHub and my personal computer make sense however, because when coding with multiple people, seeing the version history is very important. I definitely appreciate the GitLens add-on.
+Ski Speedometer is a mobile app for skiing enthusiasts who want to measure their speed and compete with their friends. With Ski Speedometer, you can track your maximum speed for each run, upload your speeds, and compare your results with your friends. So, let’s get out there and see who is the fastest skier on the slopes!
+Key Features: Run by run max speed tracking. Max speed leaderboards.
