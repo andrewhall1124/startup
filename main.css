@@ -6,19 +6,19 @@ body{
     font-weight: bold;
 }
 header{
-    height: 12vh;
+    height: 16vh;
     background: white;
     display: flex;
     align-items:top;
     justify-content:end;
     flex-direction:row;
-    padding: 3vh;
 }
 
 .button{
     background: greenyellow;
     height: 10vh;
     width: 10vh;
+    margin: 3vh;
     border-radius:50%;
     text-align: center;
     line-height: 10vh;
@@ -33,7 +33,7 @@ a{
 
 
 main{
-    flex: 1;
+    flex:1;
     background: white;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ main{
 }
 
 .scroll{
-    overflow: scroll;
+    overflow: auto;
 }
 
 .max-speed{
@@ -56,8 +56,6 @@ main{
 }
 
 table{
-    position: relative;
-    top: 36vh;
     width: 90%;
     border-collapse:collapse;
     font-size: 3vh;
@@ -98,11 +96,22 @@ img{
     text-align: center;
 }
 
+.account-picture{
+
+}
+
+.account-name{
+    font-size:4vh;
+}
+
+.account-info{
+    font-size:2vh;
+}
+
 footer{
-    height: 12vh;
+    height: 16vh;
     background: white;
     display: flex;
-    padding: 3vh;
     align-items:center;
     justify-content:space-around;
     flex-direction:row;
