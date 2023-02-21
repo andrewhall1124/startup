@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    height: 10vh;
+    background: lightgray;
+    display: flex;
+    align-items:top;
+    justify-content:end;
+    flex-direction:row;
+    padding: 10px 10px 0 0;
+}
+
+.button{
+    background: lightblue;
+    height: 70px;
+    width: 70px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 8vh;
+}
+
+.max-speed{
+    font-size: 15vh;
+}
+
+main{
+    flex: 1;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+footer{
+    height: 10vh;
+    background: gray;
+    display: flex;
+    padding: 10px 10px 0 0;
+    align-items:top;
+    justify-content:space-around;
+    flex-direction:row;
+}
