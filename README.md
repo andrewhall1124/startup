@@ -3,3 +3,5 @@ Ski Speedometer is a mobile app for skiing enthusiasts who want to measure their
 Key Features: Run by run max speed tracking. Max speed leaderboards.
 
 After doing the Simon CSS project I came to understand making my own classes, using bootstrap, and using flex a lot better.
+
+I really enjoyed making my Startup HTML and CSS. I learned a lot about posisitioning and flex box.
