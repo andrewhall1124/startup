@@ -4,7 +4,6 @@ body{
     height: 85vh;
     font-family:monospace;
     font-weight: bold;
-    border: solid;
 }
 header{
     height: 12vh;
@@ -32,15 +31,6 @@ a{
     
 }
 
-.max-speed{
-    font-size: 20vh;
-    font-style:italic;
-}
-
-.max-speed-text{
-    font-size:3vh;
-    font-weight:900
-}
 
 main{
     flex: 1;
@@ -49,6 +39,37 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction:column;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.max-speed{
+    font-size: 20vh;
+    font-style:italic;
+}
+
+.max-speed-text{
+    font-size:3vh;
+    font-weight:900;
+}
+
+table{
+    width: 90%;
+    border-collapse:collapse;
+    font-size: 3vh;
+}
+
+th{
+    background: black;
+    color: white;
+}
+
+tr{
+    background: lightgray;
+    height:10vh;
+    border: solid white 1vh;
 }
 
 footer{
