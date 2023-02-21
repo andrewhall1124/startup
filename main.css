@@ -5,25 +5,27 @@ body{
     width: 50vh;
     font-family:monospace;
     font-weight: bold;
+    border: solid;
 }
 header{
-    height: 100px;
+    height: 12vh;
     background: white;
     display: flex;
     align-items:top;
     justify-content:end;
     flex-direction:row;
-    padding: 30px 30px 0 0;
+    padding: 3vh;
+    border: solid;
 }
 
 .button{
     background: greenyellow;
-    height: 80px;
-    width: 80px;
+    height: 10vh;
+    width: 10vh;
     border-radius:50%;
     text-align: center;
-    line-height: 80px;
-    font-size: 17px;
+    line-height: 10vh;
+    font-size: 2vh;
 }
 
 .max-speed{
@@ -46,16 +48,17 @@ main{
 }
 
 footer{
-    height: 100px;
+    height: 12vh;
     background: white;
     display: flex;
-    padding: 30px;
+    padding: 3vh;
     align-items:center;
     justify-content:space-around;
     flex-direction:row;
+    border: solid;
 }
 .active{
-    height:100px;
-    width:100px;
-    line-height: 100px;
+    height:14vh;
+    width:14vh;
+    line-height: 14vh;
 }
