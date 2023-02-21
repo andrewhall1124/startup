@@ -1,8 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    height: 80vh;
-    width: 50vh;
+    height: 85vh;
     font-family:monospace;
     font-weight: bold;
     border: solid;
@@ -15,7 +14,6 @@ header{
     justify-content:end;
     flex-direction:row;
     padding: 3vh;
-    border: solid;
 }
 
 .button{
@@ -26,6 +24,12 @@ header{
     text-align: center;
     line-height: 10vh;
     font-size: 2vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
 }
 
 .max-speed{
@@ -55,10 +59,10 @@ footer{
     align-items:center;
     justify-content:space-around;
     flex-direction:row;
-    border: solid;
 }
 .active{
     height:14vh;
     width:14vh;
     line-height: 14vh;
+    font-size:7vh;
 }
