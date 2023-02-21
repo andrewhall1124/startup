@@ -56,6 +56,8 @@ main{
 }
 
 table{
+    position: relative;
+    top: 36vh;
     width: 90%;
     border-collapse:collapse;
     font-size: 3vh;
@@ -70,6 +72,30 @@ tr{
     background: lightgray;
     height:10vh;
     border: solid white 1vh;
+}
+
+.table-place{
+    text-align:center;
+    width: 8vh;
+}
+
+.table-name{
+    text-align:left;
+}
+
+.table-picture{
+    text-align:center;
+    line-height:0vh;
+    width: 10vh;
+}
+
+img{
+    height: 8vh;
+    width: auto;
+}
+
+.table-speed{
+    text-align: center;
 }
 
 footer{
