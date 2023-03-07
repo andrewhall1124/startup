@@ -10,9 +10,8 @@ header{
     background: white;
     display: flex;
     align-items:center;
-    justify-content:space-between;
+    justify-content:space-around;
     flex-direction:row;
-    border: solid;
 }
 
 .logo img{
@@ -28,6 +27,17 @@ header{
 
 .button{
     background: greenyellow;
+    height: 10vh;
+    width: 10vh;
+    margin: 3vh;
+    border-radius:50%;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 2vh;
+}
+
+.blank-button{
+    background: white;
     height: 10vh;
     width: 10vh;
     margin: 3vh;
@@ -107,10 +117,6 @@ tr{
 
 .table-speed{
     text-align: center;
-}
-
-.account-picture{
-
 }
 
 .account-name{
