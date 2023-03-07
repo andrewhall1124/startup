@@ -141,3 +141,31 @@ footer{
     line-height: 14vh;
     font-size:7vh;
 }
+
+#username{
+    height: 6vh;
+    width: 24vh;
+    border-radius: 4vh;
+    text-align: center;
+    border: none;
+    font-size: 2vh;
+    font-family: monospace;
+}
+
+#username:hover{
+    background: lightgray;
+}
+
+.login-button{
+    height: 6vh;
+    width: 24vh;
+    border-radius: 4vh; 
+    border: none;
+    background: greenyellow;
+    font-size:2vh;
+    font-family: monospace;
+}
+
+.login-button:hover{
+    background: rgb(153, 255, 0);
+}
