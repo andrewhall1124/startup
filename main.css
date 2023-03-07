@@ -9,10 +9,22 @@ header{
     height: 16vh;
     background: white;
     display: flex;
-    align-items:top;
-    justify-content:end;
+    align-items:center;
+    justify-content:space-between;
     flex-direction:row;
+    border: solid;
 }
+
+.logo img{
+    height: 4vh;
+    margin: 6vh;
+    border: solid;
+}
+
+.logo-text{
+
+}
+
 
 .button{
     background: greenyellow;
@@ -87,10 +99,11 @@ tr{
     width: 10vh;
 }
 
-img{
+.table-picture img{
     height: 8vh;
     width: auto;
 }
+
 
 .table-speed{
     text-align: center;
