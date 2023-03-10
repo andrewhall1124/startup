@@ -1,9 +1,10 @@
 body{
     display: flex;
     flex-direction: column;
-    height: 85vh;
+    height: 100vh;
     font-family:monospace;
     font-weight: bold;
+    min-height: -webkit-fill-available;
 }
 header{
     height: 16vh;
@@ -55,16 +56,13 @@ a{
 
 
 main{
-    flex:1;
     background: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction:column;
-}
-
-.scroll{
-    overflow: auto;
+    overflow: none;
+    flex: 1;
 }
 
 .max-speed{
@@ -90,7 +88,7 @@ th{
 
 tr{
     background: lightgray;
-    height:10vh;
+    height:8vh;
     border: solid white 1vh;
 }
 
