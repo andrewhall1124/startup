@@ -21,11 +21,6 @@ header{
     border: solid;
 }
 
-.logo-text{
-
-}
-
-
 .button{
     background: greenyellow;
     height: 10vh;
@@ -82,8 +77,8 @@ table{
 }
 
 th{
-    background: black;
-    color: white;
+    background: greenyellow;
+    color: black;
 }
 
 tr{
@@ -92,30 +87,47 @@ tr{
     border: solid white 1vh;
 }
 
+.top-row{
+    background: rgb(146, 146, 146);
+    text-align: center;
+}
+
+td.about{
+    font-size: 2vh;
+    padding: 2vh;
+}
+
 .table-place{
     text-align:center;
     width: 8vh;
 }
 
 .table-name{
-    text-align:left;
-}
-
-.table-picture{
     text-align:center;
-    line-height:0vh;
-    width: 10vh;
 }
-
-.table-picture img{
-    height: 8vh;
-    width: auto;
-}
-
 
 .table-speed{
     text-align: center;
+    width: 10vh;
 }
+
+.table-date{
+    text-align: center;
+}
+
+.table-picture{
+    /* text-align:center;
+    line-height:0vh;
+    width: 10vh; */
+}
+
+.table-picture img{
+    /* height: 8vh;
+    width: auto; */
+}
+
+
+
 
 .account-name{
     font-size:4vh;

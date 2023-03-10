@@ -1,24 +1,32 @@
 function loadHistory(){
   let speeds = [];
-  const speedsText = localStorage.getItem("scores");
-  speeds = JSON.parse(speedsText);
-  console.log(speeds);
-
+  const speedsText = localStorage.getItem("speed");
+  if(speedsText){
+    speeds = JSON.parse(speedsText);
+  }
   const tableBodyEl = document.querySelector('#history');
 
   if (speeds.length) {
     for (const [i, speed] of speeds.entries()) {
       const positionTdEl = document.createElement('td');
-      const scoreTdEl = document.createElement('td');
+      const usernameTdEl = document.createElement("td");
+      const speedTdEl = document.createElement('td');
       const dateTdEl = document.createElement('td');
 
       positionTdEl.textContent = i + 1;
-      scoreTdEl.textContent = speed.speed;
+      usernameTdEl.textContent = speed.name;
+      speedTdEl.textContent = speed.speed;
       dateTdEl.textContent = speed.date;
+
+      positionTdEl.className = "table-place";
+      usernameTdEl.className = "table-name";
+      speedTdEl.className = "table-speed";
+      dateTdEl.className = "table-date";
 
       const rowEl = document.createElement('tr');
       rowEl.appendChild(positionTdEl);
-      rowEl.appendChild(scoreTdEl);
+      rowEl.appendChild(usernameTdEl);
+      rowEl.appendChild(speedTdEl);
       rowEl.appendChild(dateTdEl);
 
       tableBodyEl.appendChild(rowEl);
