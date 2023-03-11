@@ -6,6 +6,7 @@ body{
     font-weight: bold;
     justify-content: center;
 }
+
 header{
     height: 16vh;
     background: white;
@@ -48,7 +49,6 @@ a{
     color: black;
     
 }
-
 
 main{
     background: white;
@@ -115,20 +115,6 @@ td.about{
     text-align: center;
     width: 20vh;
 }
-
-.table-picture{
-    /* text-align:center;
-    line-height:0vh;
-    width: 10vh; */
-}
-
-.table-picture img{
-    /* height: 8vh;
-    width: auto; */
-}
-
-
-
 
 .account-name{
     font-size:4vh;
