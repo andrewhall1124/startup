@@ -15,7 +15,7 @@ function loadHistory(){
 
       positionTdEl.textContent = i + 1;
       usernameTdEl.textContent = speed.name;
-      speedTdEl.textContent = speed.speed;
+      speedTdEl.textContent = speed.speed  + " MPH";
       dateTdEl.textContent = speed.date;
 
       positionTdEl.className = "table-place";
@@ -33,6 +33,11 @@ function loadHistory(){
     }
   } else {
     tableBodyEl.innerHTML = '<tr><td colSpan=4>Be the first to score</td></tr>';
+  }
+  const numChildren = document.querySelectorAll('tr').length;
+  for(i = numChildren; i > 6; i--){
+    const rowEl = document.querySelector('#history');
+    rowEl.removeChild(rowEl.lastElementChild);
   }
 }
 

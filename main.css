@@ -1,10 +1,10 @@
 body{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 85vh;
     font-family:monospace;
     font-weight: bold;
-    min-height: -webkit-fill-available;
+    justify-content: center;
 }
 header{
     height: 16vh;
@@ -57,7 +57,7 @@ main{
     justify-content: center;
     flex-direction:column;
     overflow: none;
-    flex: 1;
+    height: 68vh;
 }
 
 .max-speed{
@@ -108,11 +108,12 @@ td.about{
 
 .table-speed{
     text-align: center;
-    width: 10vh;
+    width: 20vh;
 }
 
 .table-date{
     text-align: center;
+    width: 20vh;
 }
 
 .table-picture{
@@ -157,9 +158,10 @@ footer{
     width: 24vh;
     border-radius: 4vh;
     text-align: center;
-    border: none;
+    border: solid lightgray;
     font-size: 2vh;
     font-family: monospace;
+    margin: .5vh;
 }
 
 #username:hover{
@@ -170,10 +172,11 @@ footer{
     height: 6vh;
     width: 24vh;
     border-radius: 4vh; 
-    border: none;
+    border:  none;
     background: greenyellow;
     font-size:2vh;
     font-family: monospace;
+    margin: .5vh;
 }
 
 .login-button:hover{
