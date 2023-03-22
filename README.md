@@ -180,3 +180,6 @@ async function doWork(flavor){
 
 doWork("cheese")
 
+# Notes from simon service project
+
+Adding fetch commands isn't as difficult as I thought it would be. Making my simon project a service through node.js and express was a lot simpler than I thought it would be. Now I just need to figure it out for my startup project to really internalize everythin.
