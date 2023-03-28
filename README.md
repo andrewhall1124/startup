@@ -187,3 +187,7 @@ Adding fetch commands isn't as difficult as I thought it would be. Making my sim
 # Notes from simon login project
 
 At this point there is so much going on in my Simon Project that I don't really understand every line of code, but I think when I finish my startup project it will make more sense.
+
+# Notes from simon web-socket project
+
+Web-socket proved fairly simple, and I enjoyed learning how this key technology is so important for user to user communication.
