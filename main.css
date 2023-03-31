@@ -1,19 +1,31 @@
 body{
-    display: flex;
-    flex-direction: column;
-    height: 85vh;
     font-family:monospace;
     font-weight: bold;
-    justify-content: center;
+    height: calc(100vh - 16px);
+    display: flex;
+    flex-direction: column;
 }
 
 header{
-    height: 16vh;
-    background: white;
+    height: 15%;
     display: flex;
-    align-items:center;
-    justify-content:space-around;
-    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo img{
@@ -33,31 +45,11 @@ header{
     font-size: 2vh;
 }
 
-.blank-button{
-    background: white;
-    height: 10vh;
-    width: 10vh;
-    margin: 3vh;
-    border-radius:50%;
-    text-align: center;
-    line-height: 10vh;
-    font-size: 2vh;
-}
 
 a{
     text-decoration: none;
     color: black;
     
-}
-
-main{
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction:column;
-    overflow: none;
-    height: 68vh;
 }
 
 .max-speed{
@@ -124,14 +116,6 @@ td.about{
     font-size:2vh;
 }
 
-footer{
-    height: 16vh;
-    background: white;
-    display: flex;
-    align-items:center;
-    justify-content:space-around;
-    flex-direction:row;
-}
 .active{
     height:14vh;
     width:14vh;
