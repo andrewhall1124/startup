@@ -191,3 +191,7 @@ At this point there is so much going on in my Simon Project that I don't really 
 # Notes from simon web-socket project
 
 Web-socket proved fairly simple, and I enjoyed learning how this key technology is so important for user to user communication.
+
+#Simon react
+
+This project was a lot to look at. I almost wish I had started learning react from the beginning of the semester. Biggest things I want to remembers are git and npm commands. 
