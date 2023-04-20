@@ -180,18 +180,17 @@ async function doWork(flavor){
 
 doWork("cheese")
 
-# Notes from simon service project
+# Ports
 
-Adding fetch commands isn't as difficult as I thought it would be. Making my simon project a service through node.js and express was a lot simpler than I thought it would be. Now I just need to figure it out for my startup project to really internalize everythin.
+![image](https://user-images.githubusercontent.com/95375458/233418979-b7b3680e-fed1-4e1a-946a-8d688d6e086c.png)
 
-# Notes from simon login project
+# HTTP
 
-At this point there is so much going on in my Simon Project that I don't really understand every line of code, but I think when I finish my startup project it will make more sense.
+Verbs
+![image](https://user-images.githubusercontent.com/95375458/233419464-44c3215c-945c-41ce-877b-3affaf8f53d0.png)
 
-# Notes from simon web-socket project
+Status Codes
+![image](https://user-images.githubusercontent.com/95375458/233419287-5718ac14-93ea-4ebe-8611-91741a257607.png)
 
-Web-socket proved fairly simple, and I enjoyed learning how this key technology is so important for user to user communication.
-
-#Simon react
-
-This project was a lot to look at. I almost wish I had started learning react from the beginning of the semester. Biggest things I want to remembers are git and npm commands. 
+Headers
+![image](https://user-images.githubusercontent.com/95375458/233419605-a042b9a7-858f-46cc-ab67-9806e6f8b669.png)
